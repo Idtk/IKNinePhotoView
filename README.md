@@ -5,7 +5,7 @@
 
 ## IKNinePhotoViewDemo
 
-<img src="https://github.com/Idtk/IKNinePhotoView/gif/IKNinePhotoView.gif" alt="radar" title="radar" width="300"/><br>
+<img src="https://github.com/Idtk/IKNinePhotoView/blob/master/gif/IKNinePhotoView.gif" alt="IKNinePhotoView" title="IKNinePhotoView" width="300"/><br>
 
 ## Usage
 
