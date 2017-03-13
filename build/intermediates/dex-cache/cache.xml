@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android\project\IKNinePhotoViewDemo\ikninephotoview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac41bcdbf2a0040cc50ea0d595fe6020a3e48a0b">
+        <dex dex="D:\Android\project\IKNinePhotoViewDemo\app\build\intermediates\pre-dexed\debug\classes_c9a8e8b50dcd65de2bd134fc547442c8f0ec78c0.jar" />
+    </item>
+
+</items>

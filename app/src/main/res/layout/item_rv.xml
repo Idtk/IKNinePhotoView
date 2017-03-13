@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="九宫格控件"
+        android:textSize="26sp"
+        android:paddingBottom="16dp"/>
+
+    <com.idtk.ikninephotoview.IKNinePhotoView
+        android:id="@+id/nine_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.idtk.ikninephotoview.IKNinePhotoView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="来点描述"
+        android:textSize="26sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"/>
+
+</LinearLayout>
