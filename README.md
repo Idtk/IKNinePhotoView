@@ -1,7 +1,7 @@
 # IKNinePhotoView
 
 ## Introduction
-&nbsp;&nbsp;&nbsp;&nbsp;IKNinePhotoView是一个开源的九宫格控件，可以自适应宽高主要用于满足九宫格图片展示器及选择器的需求。
+&nbsp;&nbsp;&nbsp;&nbsp;IKNinePhotoView是一个开源的Android九宫格控件，可以自适应宽高主要用于满足九宫格图片展示器及选择器的需求。
 
 ## IKNinePhotoViewDemo
 
