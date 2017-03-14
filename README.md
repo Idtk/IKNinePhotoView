@@ -54,7 +54,7 @@ public class MyAdapter extends IKNinePhotoViewAdapter<MyAdapter.MyHolder> {
 }
 ```
 
-### step3
+### step 3
 
 **IKNinePhotoViewHolder**
 ```Java
@@ -70,7 +70,7 @@ class MyHolder extends IKNinePhotoViewHolder {
 }
 ```
 
-### step4
+### step 4
 
 **Binding**
 
