@@ -52,12 +52,6 @@ public class IKNinePhotoView extends FrameLayout implements Observer{
     }
 
     @Override
-    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        super.onSizeChanged(w, h, oldw, oldh);
-        ninePhotoCreateView();
-    }
-
-    @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
         childLayout(left, top, right, bottom);
@@ -99,6 +93,7 @@ public class IKNinePhotoView extends FrameLayout implements Observer{
             height = width/3;
             setMeasuredDimension(width + getPaddingLeft() + getPaddingRight(), height + getPaddingTop() + getPaddingBottom());
         }
+		ninePhotoCreateView();
     }
 
     private void childLayout(int left, int top, int right, int bottom) {
