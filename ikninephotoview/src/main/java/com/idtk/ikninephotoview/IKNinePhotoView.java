@@ -115,7 +115,7 @@ public class IKNinePhotoView extends FrameLayout implements Observer{
                 return;
             }
 
-            if (adapter != null && !mRecyclerList.get(i).getFlag()) {
+            if (adapter != null && mRecyclerList.get(i) != null &&!mRecyclerList.get(i).getFlag()) {
                 adapter.displayView(generateViewHolder(i), i);
                 mRecyclerList.get(i).setFlag(true);
             }
