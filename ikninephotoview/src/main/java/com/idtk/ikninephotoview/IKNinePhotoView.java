@@ -68,6 +68,8 @@ public class IKNinePhotoView extends FrameLayout implements Observer{
     private void ninePhotoMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int width = MeasureSpec.getSize(widthMeasureSpec)-getPaddingLeft()-getPaddingRight();
         int height;
+	
+	if (adapter == null) return;
 
         if (adapter.getItemCount() < 0 || adapter.getItemCount() > 9) {
             throw new IllegalStateException("itemCount may not be more than 9 or less than 0");
@@ -97,6 +99,8 @@ public class IKNinePhotoView extends FrameLayout implements Observer{
     }
 
     private void childLayout(int left, int top, int right, int bottom) {
+	    
+	if (adapter == null) return;
 
         if (adapter.getItemCount() < 0 || adapter.getItemCount() > 9) {
             throw new IllegalStateException("itemCount may not be more than 9 or less than 0");
